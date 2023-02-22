@@ -17,19 +17,6 @@ const app = Vue.createApp({
         toggleFav(book){
             book.isFav = !book.isFav
         },
-        // handleEvent(e, data){
-        //     console.log(e, e.type)
-        //     if (data){
-        //         console.log(data)
-        //     }
-        // },
-        // handleMouseMove(e){
-        //     this.x = e.offsetX
-        //     this.y = e.offsetY
-        // },
-        // changeTitle(title) {
-        //     this.title = title
-        // }
     },
     computed: {
         filteredBooks(){
